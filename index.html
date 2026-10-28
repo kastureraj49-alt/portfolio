@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CyberAware — a beginner-friendly cybersecurity awareness website.">
+  <title>CyberAware | Stay Alert. Stay Secure.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header"><nav class="nav wrap"><a href="#home" class="logo"><span>⬡</span> CyberAware</a><button id="menuToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button><div id="navLinks" class="links"><a href="#threats">Threats</a><a href="#habits">Safety Tips</a><a href="#quiz">Quick Quiz</a></div></nav></header>
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy"><p class="eyebrow"><span class="pulse"></span> YOUR DIGITAL SAFETY STARTS HERE</p><h1>Think before<br>you <span>click.</span></h1><p class="lead">The internet is powerful. A few smart habits can help protect your accounts, personal information, and devices from common online threats.</p><div class="actions"><a class="btn primary" href="#habits">Learn safe habits <span>↓</span></a><a class="btn secondary" href="#quiz">Test your knowledge</a></div><div class="trust-row"><span>✓ Spot suspicious messages</span><span>✓ Protect your accounts</span></div></div>
+      <div class="hero-graphic"><div class="glow"></div><div class="shield-card"><div class="shield-icon">⬡</div><div class="scan-line"></div><p class="secure-label">SECURITY STATUS</p><h3>Stay Aware</h3><p class="shield-sub">Pause • Check • Protect</p><div class="shield-bottom"><span>● Awareness mode</span><span>ACTIVE</span></div></div><div class="float-chip chip-a">✉ Phishing alert</div><div class="float-chip chip-b">🔒 Secure habits</div></div>
+    </section>
+    <section class="wrap section" id="threats"><div class="section-head"><div><p class="eyebrow">KNOW THE RISKS</p><h2>Common online <span>threats.</span></h2></div><p class="sub">Learn the warning signs so you can make safer choices online.</p></div><div class="threat-grid">
+      <article class="threat-card"><div class="icon purple">✉</div><h3>Phishing</h3><p>Fake emails, texts, or websites try to trick you into sharing passwords, OTPs, or bank details.</p><div class="warning">Watch for urgent language and strange links.</div></article>
+      <article class="threat-card"><div class="icon green">🔑</div><h3>Weak Passwords</h3><p>Short or reused passwords make it easier for someone to access multiple accounts.</p><div class="warning">Use long, unique passwords for each account.</div></article>
+      <article class="threat-card"><div class="icon orange">⚠</div><h3>Online Scams</h3><p>Fraudsters may promise prizes, jobs, refunds, or deals to pressure you into paying or sharing data.</p><div class="warning">Verify the offer through an official channel.</div></article>
+      <article class="threat-card"><div class="icon blue">📶</div><h3>Unsafe Networks</h3><p>Public Wi-Fi can expose you to risks, especially when visiting untrusted sites or sharing sensitive data.</p><div class="warning">Avoid sensitive transactions on unknown networks.</div></article>
+    </div></section>
+    <section class="tips-section" id="habits"><div class="wrap section"><div class="section-head"><div><p class="eyebrow">MAKE SECURITY A HABIT</p><h2>Small steps. <span>Stronger safety.</span></h2></div><p class="sub">Use this checklist whenever you go online.</p></div><div class="tips-layout"><div class="tip-list">
+      <article class="tip"><span class="tip-number">01</span><div><h3>Pause before you click</h3><p>Check the sender, domain name, spelling, and the actual destination of a link. If unsure, visit the official site yourself.</p></div></article>
+      <article class="tip"><span class="tip-number">02</span><div><h3>Never share OTPs or passwords</h3><p>Legitimate support staff should not ask you to reveal your password or one-time verification code.</p></div></article>
+      <article class="tip"><span class="tip-number">03</span><div><h3>Use unique passwords and MFA</h3><p>Use a password manager if possible, and enable multi-factor authentication on important accounts.</p></div></article>
+      <article class="tip"><span class="tip-number">04</span><div><h3>Update your devices</h3><p>Install updates from trusted sources. Updates often fix security weaknesses in apps and operating systems.</p></div></article>
+      <article class="tip"><span class="tip-number">05</span><div><h3>Back up important files</h3><p>Keep a separate backup of important work and photos so you can recover them if a device is lost or damaged.</p></div></article>
+    </div><aside class="emergency"><div class="emergency-icon">!</div><p class="eyebrow">IF SOMETHING FEELS WRONG</p><h3>Stop. Don't panic.</h3><ol><li>Don't reply, pay, or click further.</li><li>Change affected passwords using the official website.</li><li>Tell your bank or service provider if financial details were shared.</li><li>In India, report cybercrime through official government channels.</li></ol><p class="disclaimer">This educational project is not a live threat scanner or emergency response service.</p></aside></div></div></section>
+    <section class="wrap section quiz-section" id="quiz"><div class="quiz-box"><div><p class="eyebrow">INTERACTIVE LEARNING</p><h2>Would you spot the <span>red flags?</span></h2><p class="sub">Try this short awareness quiz. No information is collected or sent anywhere.</p></div><div class="quiz-question"><p class="question-count" id="questionCount">QUESTION 1 OF 3</p><h3 id="questionText">You receive a message saying your account will close in 10 minutes unless you click a link. What should you do?</h3><div id="answers" class="answers"></div><p id="feedback" class="feedback" aria-live="polite"></p><button id="nextQuestion" class="btn primary" disabled>Next question →</button><button id="restartQuiz" class="btn secondary hidden">Try again ↻</button></div></div></section>
+    <section class="final-cta"><div class="wrap"><p class="eyebrow">REMEMBER</p><h2>Security is a habit,<br><span>not a one-time task.</span></h2><p>Pause before you trust. Verify before you share. Report when something seems wrong.</p><a class="btn primary" href="#home">Back to top ↑</a></div></section>
+  </main>
+  <footer class="footer wrap"><a href="#home" class="logo"><span>⬡</span> CyberAware</a><p>Educational project by Rajaram Kasture · <span id="year"></span></p><a href="#habits">Safety checklist ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
